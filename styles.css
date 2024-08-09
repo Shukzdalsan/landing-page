@@ -1,42 +1,55 @@
-.content{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
+  font-family: Roboto, sans-serif; 
 }
-.section-one{
-    background-color: #1F2937;
+.header-hero-wrapper {
+    background-color: #1f2937;
+}
+.header {
     display: flex;
-    flex-direction: column;
-    /* justify-content: ;
-    align-items:baseline; */
-    flex-wrap: wrap; */
+    align-items: center;
+    margin: 10px;
+    justify-content: space-around;
+    font-size: 18px; 
 }
-.main-hero{
-    font-size: 48px;
-    color: #f9faf8;
-    font-weight: bolder;
-    /* order:1; */
+.header-logo {
+    height: 50px;
+    width: auto; 
 }
-.secondary-hero, .links{
-    font-size: 18px;
+.header-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px; 
+}
+.header-links a {
     color: #e5e7eb;
-   
+    text-decoration: none;
 }
-.header-logo{
-    font-size: 24px;
-    color: #f9faf8;
-   
+.hero {
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
-.links{
-    /* text-decoration: none;
-   align-self: flex-end; */
-
+.hero-card {
+    align-self: center;
+    margin-right: 20px; 
 }
-.secondary-hero{
-    /* order:2; */
- }
-.header-section{
- align-self: flex-start;
+.hero-text {
+    color: #e5e7eb;
 }
-.hero{
-    align-self: flex-end;
-    flex-basis: 50%;
+.sign-up-button {
+    color: #e5e7eb;
+    background-color: #3882f6;
+    font-weight: 900;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0; 
 }
