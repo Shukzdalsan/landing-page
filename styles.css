@@ -45,6 +45,10 @@ body {
 .hero-text {
     color: #e5e7eb;
 }
+.hero-image {
+    height: 200px;
+    width: 300px;
+}
 .sign-up-button {
     color: #e5e7eb;
     background-color: #3882f6;
